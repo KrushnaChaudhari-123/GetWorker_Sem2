@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<!--[if IE 9 ]><html class="loading" lang="en" data-textdirection="ltr"><![endif]-->
 <?php
 session_start();
 if(isset($_SESSION['$UserName_job'])){
