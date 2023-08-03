@@ -524,7 +524,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </thead>
         <?php
                                 $con = mysqli_connect("localhost", "root", "", "job");
-                                $sql = "select * from jobseeker_reg where WorkType= 'Electrician'";
+                                $sql = "select * from jobseeker_reg where WorkType= 'Interior Designer'";
 
 
 

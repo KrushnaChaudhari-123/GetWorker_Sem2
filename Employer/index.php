@@ -223,7 +223,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="./Construction.php">
+                        <a href="./Air Conditioner.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" alt="Air Conditioner" class="circle">
                         <span >
                            <span>
@@ -241,7 +241,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Refrigerator.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/793741670309606.png" alt="Refrigerator" class="circle">
                         <span >
                            <span>
@@ -259,7 +259,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Washing Machine.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/251981670309575.png" alt="Washing machine" class="circle">
                         <span >
                            <span>
@@ -277,7 +277,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Microvave Oven.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/962211670309545.png" alt="Microwave oven" class="circle">
                         <span >
                            <span>
@@ -295,7 +295,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                         <a href="#">
+                         <a href="./Water Purifier.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/578261670309501.png" alt="Water purifier" class="circle">
                         <span >
                            <span>
@@ -313,7 +313,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Geyser.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/54511670307655.png" alt="Geyser" class="circle">
                         <span >
                            <span>
@@ -333,7 +333,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                       <a href="#"> 
+                       <a href="./Plumber.php"> 
                         <img  src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" alt="Plumber" class="circle">
                         <span >
                            <span>
@@ -351,7 +351,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                       <a href="#"> 
+                       <a href="./Carpenter.php"> 
                         <img  src="https://www.serviceonwheel.com/uploads/service/308121670306867.png" alt="Carpenter" class="circle">
                         <span >
                            <span>
@@ -369,7 +369,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#"> 
+                        <a href="./Electrician.php"> 
                         <img  src="https://www.serviceonwheel.com/uploads/service/734311670304344.png" alt="Electrician" class="circle">
                         <span >
                            <span>
@@ -387,7 +387,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                         <a href="#">
+                         <a href="./Home Painter.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/647771670309969.png" alt="Home Painter" class="circle">
                         <span >
                            <span>
@@ -405,7 +405,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Civil Contractor.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/404631670309707.png" alt="Civil contractor" class="circle">
                         <span >
                            <span>
@@ -425,7 +425,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Interior Designer.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/705551670412628.png" alt="Interior Designer" class="circle">
                         <span >
                            <span>
@@ -443,7 +443,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Vastu Shastra Consultant.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/538671678413013.jpg" alt="Vastu Shastra Consultant" class="circle">
                         <span >
                            <span>
@@ -461,7 +461,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                       <a href="#">
+                       <a href="./Bathroom Accessories .php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/519621677322304.jpg" alt="Bathroom Accessories & Sanitary ware Dealers" class="circle">
                         <span >
                            <span>
@@ -479,7 +479,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Hardware & ply.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/361271677754303.jpg" alt="Hardware & Plywood Dealers" class="circle">
                         <span >
                            <span>
@@ -497,7 +497,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Electrical Material.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/594871677581543.jpg" alt="Electrical Material Dealers" class="circle">
                         <span >
                            <span>
@@ -515,7 +515,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                       <a href="#">
+                       <a href="./Car Rental.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/268831682340265.jpg" alt="Car Rental" class="circle">
                         <span >
                            <span>
@@ -533,7 +533,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                       <a href="#">
+                       <a href="./Glass Window.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/976581680419884.jpg" alt="Glass Window & Doors  Dealers" class="circle">
                         <span >
                            <span>
@@ -551,7 +551,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Granite.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/222041677482323.jpg" alt="Granite & Tiles Dealers" class="circle">
                         <span >
                            <span>
@@ -574,7 +574,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/barber.html">
+                        <a href="./Barber.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/22371670309343.png" alt="Barber" class="circle">
                         <span >
                            <span>
@@ -592,7 +592,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/car-repair.html">
+                        <a href="./Car Repair.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/679671670415922.png" alt="Car Repair" class="circle">
                         <span >
                            <span>
@@ -610,7 +610,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/bike-repair.html">
+                        <a href="./Bike Repair.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/805471670309135.png" alt="Bike Repair" class="circle">
                         <span >
                            <span>
@@ -628,7 +628,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/computer-repair.html">
+                        <a href="./Computer Repair.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/763121670307429.png" alt="Computer Repair" class="circle">
                         <span >
                            <span>
@@ -646,7 +646,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/cctv-camera.html">
+                        <a href="./CCTV Repair.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/491351670304038.png" alt="CCTV Camera" class="circle">
                         <span >
                            <span>
@@ -664,7 +664,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/room-cooler.html">
+                        <a href="./Room cooler.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/442541670309656.png" alt="Room cooler" class="circle">
                         <span >
                            <span>
@@ -682,7 +682,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/water-dispenser_1532.html">
+                        <a href="./Water Dispenser.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/909131670302553.png" alt="Water Dispenser" class="circle">
                         <span >
                            <span>
@@ -700,7 +700,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/air-cooler.html">
+                        <a href="./Air Cooler.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/890041670303552.png" alt="Air Cooler" class="circle">
                         <span >
                            <span>
@@ -718,7 +718,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/water-cooler.html">
+                        <a href="./Water cooler.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/830421670303993.png" alt="Water cooler" class="circle">
                         <span >
                            <span>
@@ -736,7 +736,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/deep-freezer.html">
+                        <a href="./Deep Freezer.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/648341670303852.png" alt="Deep Freezer" class="circle">
                         <span >
                            <span>
@@ -754,7 +754,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="nagpur/service/inverter.html">
+                        <a href="./Inverter.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/34621670415862.png" alt="Inverter" class="circle">
                         <span >
                            <span>
@@ -779,7 +779,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Home Automation Dealers.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/705791677757602.jpg" alt="Home Automation Dealers" class="circle">
                         <span >
                            <span>
@@ -797,7 +797,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Movers and packers.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/376541670311524.png" alt="Movers and packers" class="circle">
                         <span >
                            <span>
@@ -815,7 +815,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Website.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/704681670311818.png" alt="Website" class="circle">
                         <span >
                            <span>
@@ -835,7 +835,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="category-subservice-list">
                     <li class=" hoverable valign-wrapper">
-                        <a href="#">
+                        <a href="./Home Construction.php">
                         <img  src="https://www.serviceonwheel.com/uploads/service/57401670416157.png" alt="Home Construction" class="circle">
                         <span >
                            <span>
@@ -919,5 +919,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             autoclose: true
         });
     </script>
+   
 </body>
 </html>

@@ -213,8 +213,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span> <span class="icon-bar"></span> </button>
-
-                    <a class="call-icon" href="tel:8087611222"><img src="images/call-icon.png" alt="Call" /></a>
+                    
+                    <a class="button button--aylen button--border-thin button--round-s float-r" href="./registration.html">Join Us</a>
                     <a href="./Login.php"
                         class="button button--aylen button--border-thin button--round-s float-r" data-toggle="modal"
                         data-target="#myModal">Login</a>
@@ -1422,6 +1422,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             });
         });
     </script>
+       
 </body>
 
 </html>
