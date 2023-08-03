@@ -18,7 +18,7 @@ $con = mysqli_connect("localhost","root","","job");
 // Select Database
 
 // Specify the query to Update Record
-$sql = "Update employer_reg  set ContactPerson='".$txtContact."',City='".$txtCity."',Mobile='".$txtMobile."',Password='".$txtPassword."' where EmployerId=".$txtId."";
+$sql = "Update employer_reg  set ContactPerson='".$txtContact."',City='".$txtCity."',Mobile='".$txtMobile."',Password='".$txtPassword."',UserName='".$txtUser."' where EmployerId=".$txtId."";
 // Execute query
 mysqli_query($con,$sql);
 // Close The Connection

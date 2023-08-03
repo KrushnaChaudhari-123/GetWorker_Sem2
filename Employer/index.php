@@ -165,23 +165,18 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
                     <a class="navbar-brand" href="https://www.serviceonwheel.com/">
 
-        <!-- <img src="../images/logo -sow.png"> -->
-
-       <!-- <h1> Service on wheel</h1>-->
+    
         </a>
                     <!-- <a class="cititext" href="#">Nagpur<i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
                 </div>
                 <nav class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav float-right">
                         <li class="scroll "><a href="../home.php">Home</a></li>
-                        <li class="scroll "><a href="../about-us.html">About Us</a></li>
                         <li class="scroll current-page-item"><a href="./Profile.php">Profile</a></li>
                         
                         <li class="scroll current-page-item"><a href="../session_destroy.php">Logout</a></li>
                        
-                        <!--   <li class="scroll "><a href="rate-card.html">Rate Chart</a></li>-->
-
-                        <!-- <li class="scroll "><a href="faq.html">Faq</a></li>-->
+                       
                       
 
 
