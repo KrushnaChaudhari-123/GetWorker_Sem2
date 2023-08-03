@@ -467,7 +467,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 <nav class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav float-right">
                         <li class="scroll "><a href="../home.php">Home</a></li>
-                        <li class="scroll "><a href="../about-us.html">About Us</a></li>
                         <li class="scroll current-page-item"><a href="./Profile.php">Profile</a></li>
 
                         <li class="scroll current-page-item"><a href="../session_destroy.php">Logout</a></li>

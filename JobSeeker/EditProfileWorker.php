@@ -113,7 +113,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         })();
     </script>
 
+<style>
+    main.table {
+    width: 82vw;
+    height: 134vh;
+    background-color: #fff5;
+    backdrop-filter: blur(7px);
 
+}
+</style>
 
 
     <script type="application/ld+json">
