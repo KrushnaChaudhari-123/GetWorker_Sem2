@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['$UserName_emp'])) {
+if (isset($_SESSION['$UserName_job'])) {
 } else {
   header('location:../index.php');
 }
@@ -11,7 +11,7 @@ $ID = $_SESSION['ID'];
 // Establish Connection with Database
 $con = mysqli_connect("localhost", "root", "", "job");
 
-$sql = "select * from Employer_Reg where EmployerId ='" . $ID . "'  ";
+$sql = "select * from jobseeker_reg where JobSeekId ='" . $ID . "'  ";
 // Execute query
 $result = mysqli_query($con, $sql);
 // Loop through each records 
@@ -27,7 +27,7 @@ $row = mysqli_fetch_array($result)
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Employer Home Page</title>
+    <title>Worker Profile Page</title>
     <link rel="icon" type="image/ico" href="../images/favicon.png">
     <meta name="google-site-verification" content="Btj65UJzhgL2yec17RikOMqsMEdl_QYW2vJdhKpkwIk" />
 
@@ -173,19 +173,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </div>
                 <nav class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav float-right">
-                        <li class="scroll "><a href="../home.php">Home</a></li>
-                        <li class="scroll "><a href="../about-us.html">About Us</a></li>
-                        <li class="scroll current-page-item"><a href="./Profile.php">Profile</a></li>
-                        
+                        <li class="scroll "><a href="./home.php">Home</a></li>
                         <li class="scroll current-page-item"><a href="../session_destroy.php">Logout</a></li>
-                       
-                        <!--   <li class="scroll "><a href="rate-card.html">Rate Chart</a></li>-->
-
-                        <!-- <li class="scroll "><a href="faq.html">Faq</a></li>-->
-                      
-
-
-
                        </ul>
                 </nav>
                 <div class="top-btn-block bg-2 xs-a-5px">
@@ -225,116 +214,33 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <table>
                 <thead>
                     <tr>
-                        <th> Worker Id:</th>
-                        <th> Name:</th>
-                        <th> City: </th>
-                        <th> Mobile: </th>
-                        <th> Past Experience: </th>
-                        <th> User Name: </th>
-                        <th> Password: </th>
-                        <th> Availability: </th>
+                        
+                        <th> JobSeeker Id </th>
+                        <th> Name </th>
+                        <th> City </th>
+                        <th> Mobile </th>
+                        <th>Work Type</th>
+                        <th> UserName </th>
+                        <th>Password</th>
+                        <th> Edit Profile </th>
                     </tr>
                 </thead>
                 <tbody>
-                    
+                    <tr>
+        
+                        <td data-Label="JobSeeker Id"> <?php echo $row['JobSeekId'];?></td>
+                        <td data-Label="Contact Person"> <?php echo $row['JobSeekerName'];?> </td>
+                        <td data-Label="City"> <?php echo $row['City'];?> </td>
+                        <td data-Label="Mobile"> <?php echo $row['Mobile'];?> </td>
+                        <td data-Label="WorkType"> <?php echo $row['WorkType'];?> </td>
+                        <td data-Label="UserName"> <?php echo $row['UserName'];?></td>
+                        <td data-Label="Password"> <?php echo $row['Password'];?> </td> 
+                        <td data-Label="Edit Profile"> <a href="EditProfileWorker.php?JobSeekId=<?php echo $row['JobSeekId']; ?>">Click Here</a> </td>
 
-
-                    <tr data-Label="Worker Id:">
-                  
-                  <td><span id="sprytextfield1">
-                      <label>
-                        <input name="txtId" type="text" id="txtId" value="<?php echo $row['JobSeekId']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-
-                <tr data-Label="Name">
-                  
-                  <td><span id="sprytextfield3">
-                      <label>
-                        <input name="txtContact" type="text" id="txtContact"
-                          value="<?php echo $row['JobSeekerName']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-
-                <tr data-Label="City">
-                  
-                  <td><span id="sprytextfield4">
-                      <label>
-                        <input name="txtCity" type="text" id="txtCity" value="<?php echo $row['City']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-
-                <tr data-Label="Mobile">
-                  
-                  <td><span id="sprytextfield6">
-                      <label>
-                        <input name="txtMobile" type="text" id="txtMobile" value="<?php echo $row['Mobile']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-                <tr data-Label="Past Experience">
-                  
-                  <td><span id="sprytextfield6">
-                      <label>
-                        <input name="txtExperience" type="text" id="txtExperience"
-                          value="<?php echo $row['Experience']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-
-                <tr data-Label="User Name:">
-                  
-                  <td><span id="sprytextfield8">
-                      <label>
-                        <input name="txtUser" type="text" id="txtUser" value="<?php echo $row['UserName']; ?>" />
-                      </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-                <tr data-Label="Password">
-                  
-                  <td><span id="sprytextfield9">
-                      <label>
-                        <input name="txtPassword" type="password" id="txtPassword"
-                          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                          title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long."
-                          required value="<?php echo $row['Password']; ?>" /> </label>
-                      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-                </tr>
-                <tr data-Label="Availability">
-                  
-                  <td>
-                    <span id="sprytextfield9">
-                      <label>
-                        Yes <input type="radio" name="availability" value="Yes" onclick="hideAvailableFrom()" />
-                        No <input type="radio" name="availability" value="No" onclick="showAvailableFrom()" />
-                      </label>
-                    </span>
-                  </td>
-                </tr>
-                <tr id="available-from-row" style="display:none;" data-Label="Avaailable From">
-                  <th><>Available From:</th>
-                  <td>
-                    <span id="sprytextfield9">
-                      <label>
-                        <input name="selectedDate" type="date" id="selectedDate" pattern="\d{2}-\d{2}-\d{4}"
-                          placeholder="dd-mm-yyyy" min="<?php echo date('Y-m-d'); ?>" />
-                      </label>
-                    </span>
-                  </td>
-                </tr>
-                <p id="date-error" style="color: red"></p>
-
-                <tr>
-                  <td>&nbsp;</td>
-                  <td><label>
-                      <input type="submit" name="button" id="button" value="Submit" />
-                    </label></td>
-                </tr>
-
-
+                        
+  </div>
+                       
+                    </tr>
                   
                 </tbody>
             </table>

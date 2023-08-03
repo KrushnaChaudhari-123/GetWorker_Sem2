@@ -172,7 +172,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     <ul class="nav navbar-nav float-right">
                         
                         <li class="scroll current-page-item"><a href="../JobSeeker/home.html">Home</a></li>
-                        <li class="scroll "><a href="./edi.php">Profile</a></li>
+                        <li class="scroll "><a href="./edi.php">Profile</a></li> 
                         
 
                         <!--   <li class="scroll "><a href="rate-card.html">Rate Chart</a></li>-->
@@ -204,21 +204,45 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         </div>
     </header>
     <div class="article">
-      <h2><span><a >Welcome To Control Panel</a></span></h2>
+     
       <br>
-      <br>
-      <div id="para">
-     <p >- Welcome to the Get Worker Portal.</p>
-      <p>- To ensure that your profile is up-to-date, please follow these steps:</p>
-      <p>- Go to "Edit Profile". </p>
-      <p>- Update your work experience as it is updated.</p>
-      <p>- Update your availability as per your current schedule.</p>
-
-
 
       </div>
-    
-    <!--/#navigation-->
+      <div id="how-work" class="padding-top">
+        <div class="container">
+            <div class="row section-title">
+                <div class="col-sm-4">
+                    <br><br><br><br><br>
+                    <h2 class="wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms"><b>Welcome to the Get Worker Portal</b></h2>
+                    <h4>To ensure that your profile is up-to-date, please follow these steps:</h4>
+                </div>
+                <div class="col-sm-8 b-left">
+                    <!-- <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>-->
+                </div>
+            </div>
+            <div class="row section-title">
+                <div class="col-sm-4 text-center">
+                    <div class="how-works-block text-left">
+                        <img class="harrow" src="../images/harrow.png" alt="">
+                        <div class="img"> <img src="../images/hstep1.png" alt=""></div>
+                        <h5><span>Step 1</span><br />Go to "Profile".</h5>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="how-works-block text-left">
+                        <img class="harrow" src="../images/harrow.png" alt="">
+                        <div class="img"> <img src="../images/hstep2.png" alt=""></div>
+                        <h5><span>Step 2</span><br /> Update your work experience as it is updated. </h5>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="how-works-block text-left">
+                        <div class="img"> <img src="../images/hstep2.png" alt=""></div>
+                        <h5><span>Step 3</span><br /> Update your avaialability as per your current schedule</h5>
+                    </div>
+                </div>
+            </div>
+          
      <br>
      <br>
      <br>

@@ -40,7 +40,7 @@ WHERE JobSeekId=".$txtId;
 mysqli_query($con,$sql);
 // Close The Connection
 mysqli_close($con);
-echo '<script type="text/javascript">alert("Profile Updated Succesfully");window.location=\'Profile.php\';</script>';
+echo '<script type="text/javascript">alert("Profile Updated Succesfully");window.location=\'home.php\';</script>';
 ?>
 </body>
 </html>

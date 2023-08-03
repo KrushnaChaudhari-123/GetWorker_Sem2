@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Registration</title>
-    <link rel="icon" type="image/ico" href="images/favicon.png">
+    <link rel="icon" type="image/ico" href="images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
@@ -22,13 +22,13 @@
         user-select: none;
         color: grey;
       }
-    
+
       .radio-container input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
       }
-    
+
       .checkmark {
         position: absolute;
         top: 0;
@@ -38,25 +38,25 @@
         background-color: #eee;
         border-radius: 50%;
       }
-    
-      .radio-container:hover input~.checkmark {
+
+      .radio-container:hover input ~ .checkmark {
         background-color: #ccc;
       }
-    
-      .radio-container input:checked~.checkmark {
-        background-color: #2196F3;
+
+      .radio-container input:checked ~ .checkmark {
+        background-color: #2196f3;
       }
-    
+
       .checkmark:after {
         content: "";
         position: absolute;
         display: none;
       }
-    
-      .radio-container input:checked~.checkmark:after {
+
+      .radio-container input:checked ~ .checkmark:after {
         display: block;
       }
-    
+
       .radio-container .checkmark:after {
         top: 6px;
         left: 6px;
@@ -64,7 +64,6 @@
         height: 8px;
         border-radius: 50%;
         background: white;
-        
       }
     </style>
   </head>
@@ -75,7 +74,13 @@
         <img src="images/bg.svg" />
       </div>
       <div class="login-content">
-        <form action="JobSeekerInsert.php" method="post" onSubmit="return validateForm(this,arrFormValidation);" enctype="multipart/form-data" id="form2">
+        <form
+          action="JobSeekerInsert.php"
+          method="post"
+          onSubmit="return validateForm(this,arrFormValidation);"
+          enctype="multipart/form-data"
+          id="form2"
+        >
           <img src="images/Logo.png" />
           <h2 class="title">Register Yourself Here !!!</h2>
           <div class="input-div one">
@@ -84,7 +89,14 @@
             </div>
             <div class="div">
               <h5>Full Name</h5>
-              <input type="text" class="input" name="txtName"/>
+              <input
+                type="text"
+                class="input"
+                name="txtName"
+                pattern="[A-Za-z ]+"
+                title="Full Name field content Alphabetical value only"
+                required
+              />
             </div>
           </div>
           <div class="input-div one">
@@ -93,7 +105,14 @@
             </div>
             <div class="div">
               <h5>City</h5>
-              <input type="text" class="input" name="txtCity"/>
+              <input
+                type="text"
+                class="input"
+                name="txtCity"
+                pattern="[A-Za-z ]+"
+                title="City field content Alphabetical value only"
+                required
+              />
             </div>
           </div>
           <div class="input-div pass">
@@ -102,7 +121,14 @@
             </div>
             <div class="div">
               <h5>Mobile Number</h5>
-              <input type="text" class="input" name="txtMobile"/>
+              <input
+                type="text"
+                class="input"
+                name="txtMobile"
+                pattern="[0-9]{10}"
+                title="Mobile Number Must content 10 digit number only."
+                required
+              />
             </div>
           </div>
           <div class="input-div pass">
@@ -110,14 +136,13 @@
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
-              <h5>Work Type</h5>
-              <!-- <input type="text" class="input" name="WorkType"/> -->
+              
               <select class="input" name="WorkType">
-                <option value="Construction">Construction</option>
-                <option value="Construction">Construction</option>
-                <option value="Construction">Construction</option>
-                <option value="Construction">Construction</option>
-
+                <option value="">Select WorkType:</option>
+                <option value="Air Conditioner">Air Conditioner</option>
+                <option value="Refrigerator">Refrigerator</option>
+                <option value="Washing machine">Washing machine</option>
+                <option value="Microwave oven">Microwave oven</option>
                 <option value="Water Purifier">Water Purifier</option>
                 <option value="Geyser">Geyser</option>
                 <option value="Plumbing">Plumber</option>
@@ -127,11 +152,19 @@
                 <option value="Civil contractor">Civil contractor</option>
                 <option value="Interior Designer">Interior Designer</option>
                 <option value="Vastu Shastra">Vastu Shastra Consultant</option>
-                <option value="Bathroom Accessories">Bathroom Accessories & Sanitary ware Dealears</option>
-                <option value="Hardware and ply">Hardware & Plywood Dealers</option>
-                <option value="Electrical Material">Electrical Material Dealers</option>
+                <option value="Bathroom Accessories">
+                  Bathroom Accessories & Sanitary ware Dealears
+                </option>
+                <option value="Hardware and ply">
+                  Hardware & Plywood Dealers
+                </option>
+                <option value="Electrical Material">
+                  Electrical Material Dealers
+                </option>
                 <option value="Car Rental">Car Rental</option>
-                <option value="Glass Window">Glass Window & Doors Dealers</option>
+                <option value="Glass Window">
+                  Glass Window & Doors Dealers
+                </option>
                 <option value="Granite">Granite & TilesDealers</option>
                 <option value="Barber">Barber</option>
                 <option value="Car Repair">Car Repair</option>
@@ -145,63 +178,113 @@
                 <option value="Deep Freezer">Deep Freezer</option>
                 <option value="Inverter">Inverter</option>
                 <option value="Home Automation">Home Automation Dealers</option>
-                <option value="Movers and packers">Movers and packers</option>           
+                <option value="Movers and packers">Movers and packers</option>
                 <option value="Website">Website</option>
                 <option value="Home Construction">Home Construction</option>
-                
               </select>
             </div>
-		  </div>
-		  <div class="input-div pass">
+          </div>
+          <div class="input-div pass">
             <div class="i">
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
-              <h5></h5>
-              <input type="date" class="input" name="txtBirthDate"/>
+              <input type="date" class="input" id="birthdate" name="txtBirthDate" oninput="validateDate()" required>
             </div>
-		  </div>
-		  <div class="input-div pass">
+          </div>
+          <div class="input-div pass">
             <div class="i">
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
               <h5>UserName</h5>
-              <input type="text" class="input" name="txtUserName"/>
+              <input
+                type="text"
+                class="input"
+                name="txtUserName"
+                pattern="[A-Za-z ]+"
+                title="UserName Field content Alphabetical value only."
+                required
+              />
             </div>
-		  </div> 
-		  <div class="input-div pass">
+          </div>
+          <div class="input-div pass">
             <div class="i">
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
               <h5>Password</h5>
-              <input type="password" class="input" name="txtPassword"/>
+              <input
+                type="password"
+                class="input"
+                name="txtPassword"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long."
+                required
+              />
             </div>
-		  </div> 
-		  <br>
-        <label class="radio-container">What is Your Pet Name?
-          <input type="radio" name="cmbQue" value="What is Your Pet Name?" checked="checked">
-          <span class="checkmark"></span>
-        </label>
-        <label class="radio-container">Who is Your Favourite Person?
-          <input type="radio" name="cmbQue" value="Who is Your Favourite Person?">
-          <span class="checkmark"></span>
-        </label>
-        <div class="input-div pass">
+          </div>
+          <br />
+          <label class="radio-container"
+            >What is Your Pet Name?
+            <input
+              type="radio"
+              name="cmbQue"
+              value="What is Your Pet Name?"
+              checked="checked"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio-container"
+            >Who is Your Favourite Person?
+            <input
+              type="radio"
+              name="cmbQue"
+              value="Who is Your Favourite Person?"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <div class="input-div pass">
             <div class="i">
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
               <h5>Security Answer</h5>
-              <input type="text" class="input" name="txtAnswer" />
+              <input
+                type="text"
+                class="input"
+                name="txtAnswer"
+                pattern="[A-Za-z ]+"
+                title="Answer Field content Alphabetical value only."
+                required
+              />
             </div>
-		  </div>
-		  
+          </div>
+
           <input type="submit" class="btn" value="Register" />
         </form>
       </div>
     </div>
+    <script>
+      function validateDate() {
+        // Get the selected date from the input field
+        const inputDate = new Date(document.getElementById("birthdate").value);
+  
+        // Get the current date
+        const currentDate = new Date();
+  
+        // Calculate the date 18 years ago from the current date
+        const minDate = new Date();
+        minDate.setFullYear(currentDate.getFullYear() - 18);
+  
+        // Compare the selected date with the minimum date allowed
+        if (inputDate >= minDate) {
+          alert("Please select a date before 18 years from the current date.");
+          return false;
+        }
+        return true;
+      }
+    </script>
     <script type="text/javascript" src="js/main1.js"></script>
   </body>
 </html>
